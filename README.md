@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Health Track Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The **Health Track Application** is a full-stack web application that allows users to log and track their daily health metrics, such as body temperature, blood pressure, and heart rate. The app provides features to add, edit, view, and delete records, along with a history section to view past entries.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Frontend Components](#frontend-components)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- Log health metrics including body temperature, blood pressure, and heart rate.
+- Add, edit, view, and delete health records.
+- View all records in a dashboard and search/filter by date, temperature, blood pressure, and heart rate.
+- View historical records even after deletion from the dashboard.
+- Responsive UI design.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Technologies Used
+- **Frontend**: React.js, HTML, CSS
+- **Deployment**: Railway
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Components
+-**Dashboard**: Displays all health records and provides filtering and search functionalities.
+-**Health Record Form**: Form to add or edit a health record.
+-**Health Record Detail**: Displays detailed view of a single record and allows editing or deletion.
+-**History**: Displays historical records (including deleted ones).
 
-### `npm run build`
+## Usage
+  After Deployment
+  Once the application is deployed, follow these steps to use it:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+-**Add a New Record**: Navigate to the dashboard and click on the "Add New Record" button. Fill out the health metrics in the form and submit.
+-**View Records**: The dashboard displays all current health records. Use the filters to search for records by date or filter by temperature, blood pressure, or heart rate.
+-**Edit or Delete a Record**: Click on a record to view its details. You can edit or delete the record from this page.
+-**View History**: The history section contains all previously added records, including those that have been deleted from the dashboard.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Screenshots
+![image](https://github.com/user-attachments/assets/f9b17975-9890-47ba-bbaf-828bf491956e)
+![image](https://github.com/user-attachments/assets/a73dbf25-ae62-44e3-bf26-389807c11f9b)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
