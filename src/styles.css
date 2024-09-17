@@ -1,0 +1,35 @@
+/* src/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #e9ecef;
+}
+
+.container {
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .dashboard, .health-record-form, .health-record-detail {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard button, .health-record-form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .search-bar input, .search-bar button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

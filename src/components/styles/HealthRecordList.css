@@ -1,0 +1,41 @@
+
+
+.health-record-list {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .health-record-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .health-record-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .health-record-list li {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .health-record-list button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .health-record-list button:hover {
+    background-color: #c82333;
+  }
+  

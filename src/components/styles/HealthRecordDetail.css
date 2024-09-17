@@ -1,0 +1,137 @@
+
+.record-detail {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.record-detail h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.record-detail p {
+  font-size: 16px;
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Form styling */
+.record-detail form {
+  display: flex;
+  flex-direction: column;
+}
+
+.record-detail label {
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.record-detail input[type="number"],
+.record-detail input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.record-detail input[type="number"]:focus,
+.record-detail input[type="text"]:focus {
+  border-color: #0056b3;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+}
+
+/* Button styling */
+.record-detail button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.record-detail button.save {
+  background-color: #28a745; /* Green */
+}
+
+.record-detail button.save:hover {
+  background-color: #218838;
+}
+
+.record-detail button.cancel {
+  background-color: #6c757d; /* Gray */
+}
+
+.record-detail button.cancel:hover {
+  background-color: #5a6268;
+}
+
+.record-detail button.delete {
+  background-color: #dc3545; /* Red */
+}
+
+.record-detail button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  .record-detail {
+    padding: 15px;
+  }
+
+  .record-detail h2 {
+    font-size: 20px;
+  }
+
+  .record-detail p {
+    font-size: 14px;
+  }
+
+  .record-detail input[type="number"],
+  .record-detail input[type="text"] {
+    font-size: 14px;
+  }
+
+  .record-detail button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .record-detail {
+    padding: 10px;
+  }
+
+  .record-detail h2 {
+    font-size: 18px;
+  }
+
+  .record-detail p {
+    font-size: 12px;
+  }
+
+  .record-detail input[type="number"],
+  .record-detail input[type="text"] {
+    font-size: 12px;
+  }
+
+  .record-detail button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+  
